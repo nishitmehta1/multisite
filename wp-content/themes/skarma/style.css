@@ -46,6 +46,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/news.css");
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;

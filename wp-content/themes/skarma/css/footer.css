@@ -1,0 +1,72 @@
+footer{
+	margin-top: 300px;
+}
+.upper_footer{
+	border-top: 3px solid #FF6800;
+	width: 1600px;
+	height: 95px;
+	background: linear-gradient(#202A83,#131F7D);
+}
+
+.lower_footer{
+	padding-top: 18px;
+	width: 1600px;
+	height: 53px;
+	background: linear-gradient(#202A83,#131F7D);
+}
+
+.copyright{
+	margin: 22px 80px 16px 500px;
+	width: 82px;
+	height: 15px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}
+.legal{
+	margin: 22px 80px 16px 500px;
+	width: 78px;
+	height: 10px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}
+.contact{
+	margin: 22px 80px 16px 500px;
+	width: 52px;
+	height: 10px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}
+.privacy{
+	margin: 22px 80px 16px auto;
+	width: 93px;
+	height: 10px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}
+.officialsite{
+	margin: 22px 80px 16px 500px;
+	width: 81px;
+	height: 10px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}

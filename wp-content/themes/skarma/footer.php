@@ -14,10 +14,18 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="upper_footer">
+			
+		</div>
+		<div class="lower_footer">
+			<span class="copyright">Copyright <?php the_date('Y'); ?></span>
+			<span class="privacy">PRIVACY POLICY</span>
+			<span class="legal">LEGAL TERMS</span>
+			<span class="contact">CONTACT</span>
+			<span class="officialsite">OFFICIAL SITE</span>
+		</div>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'skarma' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'skarma' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'skarma' ), 'skarma', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

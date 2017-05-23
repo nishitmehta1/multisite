@@ -15,24 +15,33 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		
+		<div class="rectangle">
+			<span class="news">NEWS</span>
+		</div>
 
-			<?php
-			while ( have_posts() ) : the_post();
+		<div id="latestnews" class="latest-news-div">
+			<span class="latest-news">LATEST NEWS</span>	 
+		</div>
+		<hr>
+		
+		<div class="form">
+			<label id="search-news-for" for="search">Search news for</label>
+			<input type="text" id="search" name="search" placeholder="Player, match, etc..">
+			<select name="year" id="year">
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+			</select>
+		</div>
 
-				get_template_part( 'template-parts/content', 'page' );
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-
-			endwhile; // End of the loop.
-			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		<hr id="hr2">
+		<div id="content">
+			
+		</div>
+		<!-- #main -->
+	</div> <!-- #primary-->
 
 <?php
-get_sidebar();
 get_footer();

@@ -101,11 +101,13 @@ function skarma_widgets_init() {
 }
 add_action( 'widgets_init', 'skarma_widgets_init' );
 
+
+
 /**
  * Enqueue scripts and styles.
  */
 function skarma_scripts() {
-	wp_enqueue_style( 'skarma-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'skarma-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

@@ -1,0 +1,194 @@
+/* NAV 1 STARTS HERE */
+
+.nav-1 {
+  width: 1600px;
+  height: 40px;
+  background-color: #ffffff;
+  padding-top: 6px;
+}
+
+.forthewin {
+	margin: 16px 75px 16.3px 900px;
+	width: 74px;
+	height: 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1.29;
+	text-align: left;
+	color: #1a2681;
+}
+
+.skarma {
+	margin: 16px 46px 16.3px auto;
+	width: 76px;
+	height: 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1.29;
+	text-align: left;
+	color: #1a2681;
+}
+
+.beetroots{
+	margin: 16px 66px 16.3px auto;
+	width: 67px;
+	height: 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1.29;
+	text-align: left;
+	color: #1a2681;
+}
+
+.ticketing {
+	margin: 16px 46px 16.3px auto;
+	width: 60px;
+	height: 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-stretch: condensed;
+	line-height: 1.29;
+	text-align: left;
+	color: #1a2681;
+}
+
+/* NAV 1 ENDS HERE */
+
+/* NAV 2 STARTS HERE */
+
+ul.menu{
+	margin-left: 650px;
+	margin-bottom: 0px !important;
+	height: 75px;
+	list-style-type: none;
+}
+
+.menu>.menu-item{
+	display: inline-block;
+	height: 75px;
+}
+
+.nav-2 a:link,.nav-2 a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav-2 li:hover{
+	background-color: #FF6800;
+}
+
+.nav-2 li{
+	height: 75px !important;
+}
+
+.nav-2{
+	border-bottom: 5px solid #FF6800;
+}
+
+#menu-item-40{
+	padding-left: 25px;
+	padding-top: 31px;
+	/*margin: 0px 50px 27px auto;*/
+	text-transform: uppercase;
+  	width: 126px;
+  	font-family: 'Squada One';
+  	font-size: 24px;
+  	line-height: 1;
+  	text-align: left;
+  	color: #ffffff;
+}
+
+#menu-item-39{
+	padding-top: 31px;
+	padding-left: 32px;
+	/*margin: auto 49px 27px 0px;*/
+	width: 125px;
+	text-transform: uppercase;
+	height: auto;
+	font-family: 'Squada One';
+	font-size: 24px;
+	line-height: 1;
+	text-align: left;
+	color: #ffffff;
+}
+#menu-item-38{
+	padding-top: 31px;
+	padding-left: 20px;
+	/*margin: 31px 45px 27px auto;*/
+	width: 121px;
+	text-transform: uppercase;
+  	height: 17px;
+  	font-family: 'Squada One';
+  	font-size: 24px;
+  	line-height: 1;
+  	text-align: left;
+  	color: #ffffff;
+}
+#menu-item-37{
+	padding-top: 31px;
+	padding-left: 18px;
+	/*margin: 31px 42px 27px auto;*/
+	width: 95px;
+	text-transform: uppercase;
+  	height: 16px;
+  	font-family: 'Squada One';
+  	font-size: 24px;
+  	line-height: 1;
+  	text-align: left;
+  	color: #ffffff;
+}
+#menu-item-36{
+	padding-top: 31px;
+	padding-left: 15px;
+	/*margin: 31px 38px 27px auto;*/
+	width: 107px;
+	text-transform: uppercase;
+  	height: 17px;
+  	font-family: 'Squada One';
+  	font-size: 24px;
+  	line-height: 1;
+  	text-align: left;
+  	color: #ffffff;
+
+}
+#menu-item-35{
+	padding-top: 31px;
+	padding-left: 20px;
+	/*margin: 31px 48px 27px auto;*/
+	width: 89px;
+	text-transform: uppercase;
+	height: 17px;
+	font-family: 'Squada One';
+	font-size: 24px;
+	line-height: 1;
+	text-align: left;
+	color: #ffffff;
+
+}
+#menu-item-34{
+	padding-top: 31px;
+	padding-left: 14px;
+	/*margin: 31px auto 27px auto;*/
+	width: 78px;
+	text-transform: uppercase;
+	height: 17px;
+	font-family: 'Squada One';
+	font-size: 24px;
+	line-height: 1;
+	text-align: left;
+	color: #ffffff;
+
+}
+
+.nav-2{
+	width: 1600px;
+	height: 78px;
+	background: linear-gradient(#202A83,#14207E);
+}
+
+
+/*NAV 2 ENDS HERE*/
