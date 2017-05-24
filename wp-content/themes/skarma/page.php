@@ -37,8 +37,16 @@ get_header(); ?>
 
 
 		<hr id="hr2">
-		<div id="content">
-			
+		<div id="content" class="newsfeed">
+			<?php if(have_posts()): 
+				while(have_posts()):
+					the_post();
+				?>
+				<h2><?php the_title(); ?></h2> 
+			<?php endwhile;?>
+				
+			<?php endif; ?>
+
 		</div>
 		<!-- #main -->
 	</div> <!-- #primary-->
