@@ -1,13 +1,12 @@
 /* NAV 1 STARTS HERE */
 
-.nav-1 {
-  width: 1600px;
+.nav-1{
   height: 40px;
   background-color: #ffffff;
-  padding-top: 6px;
+  padding-top: 6px !important;
 }
 
-.forthewin {
+.forthewin{
 	margin: 16px 75px 16.3px 900px;
 	width: 74px;
 	height: 10px;
@@ -19,7 +18,7 @@
 	color: #1a2681;
 }
 
-.skarma {
+.skarma{
 	margin: 16px 46px 16.3px auto;
 	width: 76px;
 	height: 10px;
@@ -60,13 +59,12 @@
 /* NAV 2 STARTS HERE */
 
 ul.menu{
-	margin-left: 650px;
 	margin-bottom: 0px !important;
-	height: 75px;
 	list-style-type: none;
 }
 
-.menu>.menu-item{
+ul>li.nav-item{
+	padding: 25px 20px 15px auto !important;
 	display: inline-block;
 	height: 75px;
 }
@@ -92,7 +90,6 @@ ul.menu{
 #menu-item-40{
 	padding-left: 25px;
 	padding-top: 31px;
-	/*margin: 0px 50px 27px auto;*/
 	text-transform: uppercase;
   	width: 126px;
   	font-family: 'Squada One';
@@ -105,7 +102,6 @@ ul.menu{
 #menu-item-39{
 	padding-top: 31px;
 	padding-left: 32px;
-	/*margin: auto 49px 27px 0px;*/
 	width: 125px;
 	text-transform: uppercase;
 	height: auto;
@@ -118,7 +114,6 @@ ul.menu{
 #menu-item-38{
 	padding-top: 31px;
 	padding-left: 20px;
-	/*margin: 31px 45px 27px auto;*/
 	width: 121px;
 	text-transform: uppercase;
   	height: 17px;
@@ -131,7 +126,6 @@ ul.menu{
 #menu-item-37{
 	padding-top: 31px;
 	padding-left: 18px;
-	/*margin: 31px 42px 27px auto;*/
 	width: 95px;
 	text-transform: uppercase;
   	height: 16px;
@@ -144,7 +138,6 @@ ul.menu{
 #menu-item-36{
 	padding-top: 31px;
 	padding-left: 15px;
-	/*margin: 31px 38px 27px auto;*/
 	width: 107px;
 	text-transform: uppercase;
   	height: 17px;
@@ -158,7 +151,6 @@ ul.menu{
 #menu-item-35{
 	padding-top: 31px;
 	padding-left: 20px;
-	/*margin: 31px 48px 27px auto;*/
 	width: 89px;
 	text-transform: uppercase;
 	height: 17px;
@@ -172,7 +164,6 @@ ul.menu{
 #menu-item-34{
 	padding-top: 31px;
 	padding-left: 14px;
-	/*margin: 31px auto 27px auto;*/
 	width: 78px;
 	text-transform: uppercase;
 	height: 17px;
@@ -185,7 +176,6 @@ ul.menu{
 }
 
 .nav-2{
-	width: 1600px;
 	height: 78px;
 	background: linear-gradient(#202A83,#14207E);
 }

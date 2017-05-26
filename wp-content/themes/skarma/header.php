@@ -1,13 +1,15 @@
 <?php
 /**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package skarma
- */
+*
+* The header for our theme
+*
+* This is the template that displays all of the <head> section and everything up until <div id="content">
+*
+* @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+*
+* @package skarma
+*
+*/
 
 ?>
 <!DOCTYPE html>
@@ -26,18 +28,26 @@
 
 <body <?php body_class(); ?>>	
 	
-	<div class="nav-1">
+	<!-- <div class="nav-1 col-md-12">
 		<span class="forthewin">#FORTHEWIN</span>
 		<span class="skarma">SKARMA.ORG</span>
 		<span class="beetroots">BEETROOTS</span>
 		<span class="ticketing">TICKETING</span>
-	</div>
+	</div> -->
 
-	<div class="nav-2">
-		<?php wp_nav_menu(); ?>	
-	</div>
+	<?php 
+		$args=array(
+				'menu_class' => 'nav-menu, text-center,  navbar-nav, menu, offset-md-5, offset-sm-5'
+			);
+	?>
 
-	<div id="page" class="site">
-	
-		<div id="content" class="site-content">
+
+		<nav id="nav-menu" class="nav-2 navbar navbar-toggleable-md">
+			<!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon"></span> -->
+			 </button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<?php wp_nav_menu($args); ?>	
+			</div>
+		</nav>
 		

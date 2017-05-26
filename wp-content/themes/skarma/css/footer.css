@@ -1,16 +1,20 @@
+html{
+	min-height: 100%;
+}
+
 footer{
+	width: 100%;
 	margin-top: 300px;
+	overflow: hidden;
 }
 .upper_footer{
 	border-top: 3px solid #FF6800;
-	width: 1600px;
 	height: 95px;
 	background: linear-gradient(#202A83,#131F7D);
 }
 
 .lower_footer{
-	padding-top: 15px;
-	width: 1600px;
+	padding-top: 20px;
 	height: 53px;
 	background: linear-gradient(#202A83,#131F7D);
 }

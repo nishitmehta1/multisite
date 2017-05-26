@@ -11,33 +11,32 @@
  *
  * @package skarma
  */
-
+?>
+<?php 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="body" class="content-area">
 		
-		<div class="rectangle">
-			<span class="news">NEWS</span>
+		<div class="rectangle col-md-12 col-sm-12">
+			<span class="news text-center">NEWS</span>
 		</div>
 
-		<div id="latestnews" class="latest-news-div">
+		<div id="latestnews" class="latest-news-div offset-md-2 col-md-8">
 			<span class="latest-news">LATEST NEWS</span>	 
 		</div>
-		<hr>
 		
-		<div class="form">
-			<label id="search-news-for" for="search">Search news for</label>
-			<input type="text" id="search" name="search" placeholder="Player, match, etc..">
-			<select name="year" id="year">
+		<div id="search-area" class="form offset-md-2 col-sm-12 col-md-8" style="padding-right: 0;">
+			<label id="search-news-for" class="offset-md-2 offset-sm-2 col-md-3" for="search">Search news for</label>
+			<input type="text" class="offset-sm-1 offset-md-0 col-md-3" id="search" name="search" placeholder="Player, match, etc..">
+			<select name="year" class="offset-md-0 col-md-3" id="year">
 				<option value="2017">2017</option>
 				<option value="2016">2016</option>
 				<option value="2015">2015</option>
 			</select>
+			<button type="button" class="go-button col-md-1"><span class="go-button-text">GO</span></button>
 		</div>
 
-
-		<hr id="hr2">
-		<div id="content" class="newsfeed">
+		<div id="content" class="newsfeed offset-sm-0 col-sm-12 offset-md-2 col-md-10 row">
 			<?php 
 			$args = array(
 				'posts_per_page'   => 10,
@@ -60,20 +59,22 @@ get_header(); ?>
 			);
 			query_posts($args);
 
-				while(have_posts()): the_post();
-				?>
-				<div class="news-content-div">
-				<!--  -->
-					<a href="<?php the_permalink(); ?>"><img src="https://placehold.it/378x222" alt="Image Goes Here"></a>
-					<span id="news_date"><?php echo get_the_date();?><br></span>
-					<span class="news_title"><a href="<?php the_permalink(); ?>"> <?php the_title();?></a></span> 
-					<span class="news-content"><?php the_content(); ?></span>
+			while(have_posts()): the_post();
+			?> 
+			<div class="news-content-div">
+				<div class="area">
+					<a href="<?php the_permalink(); ?>"><img class="col-md-12 offset-md-0 offset-sm-2 col-sm-12" src="https://placehold.it/378x222" alt="Image Goes Here"></a>
+					<span id="news_date" class="col-md-12 col-sm-10"><?php echo get_the_date();?><br></span>
+					<span class="news_title col-md-12 offset-md-0"><a href="<?php the_permalink(); ?>"> <?php the_title();?> </a></span> 
+					<span class="news-content col-md-12 offset-sm-2 offset-md-0 col-sm-10"><?php the_content(); ?></span>
 				</div>
-			
+			</div>
 			<?php endwhile;?>
-
+		
 		</div>
-	</div> <!-- #primary-->
+
+	</div>
+	
 
 <?php
-get_footer();
+get_footer(); ?>

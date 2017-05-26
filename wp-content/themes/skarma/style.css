@@ -46,6 +46,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@import url("css/bootstrap/css/bootstrap-grid.min.css");
+@import url("css/bootstrap/css/bootstrap.min.css")
+@import url("css/bootstrap/css/bootstrap-reboot.min.css");
 @import url("css/header.css");
 @import url("css/footer.css");
 @import url("css/news.css");
@@ -753,10 +756,6 @@ a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.sticky {
-	display: block;
-}
-
 .hentry {
 	margin: 0 0 1.5em;
 }
